@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv=X-UA-Compatible content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+  <!-- SEO Meta tags-->
+  <meta name="robots" content="index, follow"/>
+  <meta name=description content="Le piano des animaux émet des sons des animaux de la ferme, une adaptation du projet 'Drumkit' de Wes Bos."/>
+  <meta name=keywords content="sites, web, marise, st-Pierre, portefolio, projets, projet, JavaScript, Wes Bos, animaux, ferme, sons, piano"/>
+  <meta name=author content="marise st-Pierre"/>
+
+<!-- Tags pour Facebook-->
+  <meta property="og:url" content="http://www.marisestpierre.com/drum/JSDrumkit.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Piano des animaux." />
+  <meta property="og:description" content="Piano qui émet des sons d'animaux, une adaptation du projet 'Drumkit' de Wes Bos." />
+  <meta property="og:image" content="http://www.marisestpierre.com/drum/drumimg/pianoanimaux.jpg" />
+  <meta property="og:image:alt" content="Page couverture du site web le piano des animaux."/>
+  <meta property="og:locale" content="fr_FR"/>
+
+  <!-- Titre -->
+  <title>Piano des animaux</title>
+
+  <!-- Bootstrap CSS -->
+  
+  <!-- CSS file-->
+  <link rel="stylesheet" href="../drum/drumcss/drumcss.css">
+
+<!--Google analytics-->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105320255-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+</head>
+
+<body>
+<main>
+
+  <div>
+  <div class = "instruction">
+    <h2>Presse une touche du clavier pour entendre les animaux</h2>
+  </div>
+  </div>
+
+  <div>
+  <div class="keys">
+    <div data-key = "65" class = "key">
+      <kbd>A</kbd>
+      <span class = "sound">Vache</span>
+    </div>
+    <div data-key = "83" class = "key">
+      <kbd>S</kbd>
+      <span class = "sound">Mouton</span>
+    </div>
+    <div data-key = "68" class = "key">
+      <kbd>D</kbd>
+      <span class = "sound">Coq</span>
+    </div>
+    <div data-key = "70" class = "key">
+      <kbd>F</kbd>
+      <span class = "sound">Cheval</span>
+    </div>
+    <div data-key = "71" class = "key">
+      <kbd>G</kbd>
+      <span class = "sound">Cochon</span>
+    </div>
+    <div data-key = "72" class = "key">
+      <kbd>H</kbd>
+      <span class = "sound">Poule</span>
+    </div>
+    <div data-key = "74" class = "key">
+      <kbd>J</kbd>
+      <span class = "sound">Âne</span>
+    </div>
+    <div data-key = "75" class = "key">
+      <kbd>K</kbd>
+      <span class = "sound">Chèvre</span>
+    </div>
+    <div data-key = "76" class = "key">
+      <kbd>L</kbd>
+      <span class = "sound">Dinde</span>
+    </div>
+  </div>
+  
+  <audio data-key = "65" src = "sons/cow.wav"></audio>
+  <audio data-key = "83" src = "sons/sheep.wav"></audio>
+  <audio data-key = "68" src = "sons/rooster.wav"></audio>
+  <audio data-key = "70" src = "sons/horse.wav"></audio>
+  <audio data-key = "71" src = "sons/pig.wav"></audio>
+  <audio data-key = "72" src = "sons/chicken.wav"></audio>
+  <audio data-key = "74" src = "sons/donkey.wav"></audio>
+  <audio data-key = "75" src = "sons/goat.wav"></audio>
+  <audio data-key = "76" src = "sons/turkey.wav"></audio>
+  </div>
+
+
+<!--footer-->
+  <div >
+    <div class = "footer">
+      <a href ="http://www.marisestpierre.com/"><p>&copy 2018 Marise St-Pierre</p></a>
+    </div>      
+  </div>
+
+  </main>
+
+  <!-- Scripts -->
+ 
+  <script src = "../drum/drumscript/drumscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+/*General*/
+
+html, body, nav, header, main, aside, footer, div, ul, button, .container-fluid,
+ .row, .jumbotron, .jumbotron-fluid, .nav, .nav-pills {
+	margin: 0;
+	padding: 0;
+	width:100%;
+}
+
+/*body * {
+	border: 1px solid red;
+}*/
+
+/*.test {
+	border : 1px solid blue;
+}*/
+
+h1, h2, h3, a, li, p, button {
+	font-family: 'Ubuntu', sans-serif;
+	color: #00425B;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-shadow: 1px 1px 1px #42B1DB;
+	font-size: 5.5rem;
+}
+
+h2, h3 {
+	text-align: center;
+	margin: 2%;
+	padding: 2%;
+}
+
+
+/*nav*/
+
+.navigation {
+	background-color: rgba(0, 0, 0, 0.60);
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-bottom-color: rgba(0, 0, 0, 0.60);
+	border-radius: 0;
+	margin: 0%;
+}
+
+.nav-item {
+	color: #00425B;
+    background-color: #42B1DB;
+}
+
+.nav-pills .nav-item:hover, .nav-link:hover {
+	background-color: #00425B;
+	text-decoration: underline;
+	border-color: #00425B;
+	color: #42B1DB;
+}
+
+
+/*header*/
+
+.header {
+	background-image:url("../img2/coquillages.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.button {
+	background-color: transparent;
+	padding: 5%;
+	border-color: #00425B;
+	margin-bottom: 2%;
+	color: #42B1DB;
+	text-shadow: 1px 1px 1px #00425B;
+	font-size: 3.5rem;
+}
+
+.button:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #00425B;
+}
+
+.slogan {
+	margin-bottom: 2%;
+	font-size: 1.5rem;
+	text-shadow: 1px 1px 1px #42B1DB;
+}
+
+/*main*/
+
+.main {
+	background-image:url("../img2/vagues.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.main h2 {
+	color: rgba(0, 0, 0, 0.80);
+	text-shadow: 1px 1px 1px #42B1DB;
+	font-size: 3.5rem;
+}
+
+.projet a {
+	color: #00425B;
+	font-size: 1.5rem;
+}
+
+.main a:hover {
+	color: #42B1DB;
+}
+
+.projet {
+	margin-bottom: 3%;
+}
+
+.card-body{
+	height: 175px;
+}
+
+/*aside*/
+
+.aside {
+	background-image:url("../img2/bouteille.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.aside h2 {
+	margin-bottom: 10%;
+	text-shadow: 1px 1px 1px #42B1DB;
+	font-size: 3.5rem;
+}
+
+.social {
+	margin-right: 20%;
+	margin-left: 20%;
+	border-color: #42B1DB;
+	border-radius: .25rem;
+}
+
+/*footer*/
+
+.footer {
+	background-color: rgba(0, 0, 0, 0.80);
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top: 7.5%;
+}
+
+.footer p {
+	color: #42B1DB;
+	font-size:1.5em;
+}
+
+.footer a:hover {
+	color: #42B1DB;
+}
+
+
+/*media queries*/
+
+/*// Extra Small devices (portrait phones, less than 576px)*/
+@media screen and (min-width: 250px) and (max-width: 370px) {
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 5%;
+}
+
+.nav.haut {
+	display: block;
+	margin-bottom: 3%;
+}
+
+.nav-item {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.nav-link {
+	text-align: center;
+}
+
+.button {
+	font-size: 1.75rem;
+	margin-bottom: 5%;
+}
+
+.slogan h3, .footer p {
+	font-size: 1.25rem;
+}
+
+.main h2, .aside h2 {
+	font-size: 2rem;
+}
+
+.projet a {
+	font-size: 1rem;
+}
+
+.row.bas {
+	margin-bottom: 5%;
+}
+
+.footer {
+	text-align: center;
+}
+
+}
+
+@media screen and (min-width: 371px) and (max-width: 575px) {
+
+h1 {
+	font-size: 3.5rem;
+	margin-bottom: 5%;
+}
+
+
+.button {
+	font-size: 1.5rem;
+	margin-bottom: 5%;
+	padding: 3%;
+}
+
+.slogan h3, .footer p {
+	font-size: 1.25rem;
+}
+
+.main h2, .aside h2 {
+	font-size: 2.5rem;
+}
+
+.projet a {
+	font-size: 1rem;
+}
+
+.row.bas {
+	margin-bottom: 5%;
+}
+
+.footer {
+	text-align: center;
+}
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+h1 {
+	font-size: 3.5rem;
+	margin-bottom: 5%;
+}
+
+.slogan h3, .footer p {
+	font-size: 1.25rem;
+}
+
+.button {
+	font-size: 1.5rem;
+	margin-bottom: 5%;
+	padding: 3%;
+}
+
+.button a {
+	padding: 3%;
+}
+
+.main h2, .aside h2 {
+	font-size: 2.5rem;
+}
+
+.card-text {
+	font-size: 0.85rem;
+}
+
+.projet a {
+	font-size: 1rem;
+}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+
+.button {
+	font-size: 1.5rem;
+	padding: 3%;
+}
+
+.projet a {
+	font-size: 1rem;
+}
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	
+.button {
+	font-size: 2rem;
+	padding: 3%;
+}
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+

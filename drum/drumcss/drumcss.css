@@ -1,0 +1,127 @@
+
+html, body {
+	font-size : 10px;
+	margin : 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+html {
+	
+	background-image:url("../drumimg/ferme1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.keys {
+	display: flex;
+	flex : 1;
+	min-height: 80vh;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.key {
+	border: .4rem solid black;
+	border-radius: .5rem;
+	margin : 1rem;
+	font-size: 1.5rem;
+	padding : 1rem .5rem;
+	transition: all .07s ease;
+	width: 10rem;
+	text-align: center;
+	color: white;
+	background : rgba(0,0,0,0.4);
+	text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+	transform: scale(1.1);
+	border-color: #ffc600;
+	box-shadow: 0 0 1rem #ffc600;
+	touch-action: manipulation;
+}
+
+kbd {
+	display: block;
+	font-size: 4rem;
+	background : rgba(0,0,0,0);
+}
+
+.sound {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	color: #ffc600;
+}
+
+.instruction {
+	text-align: center;
+	font-size: 2rem;
+	color : #02a3d9;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	text-shadow: 0 0 .5rem black;
+	margin-bottom: 0%;
+	margin-top: 8%;
+
+}
+
+.footer {
+	font-size: 2rem;
+	margin-bottom: 3%;
+	margin-left: 3%;
+	text-shadow: 0 0 .5rem black;
+	letter-spacing: .1rem;
+}
+
+.footer a {
+	color: #02a3d9;
+	letter-spacing: .1rem;
+}
+
+
+.footer a:visited {
+	color: #0b0d0c;
+	letter-spacing: .1rem;
+	text-shadow: 0 0 1rem black;
+}
+
+.footer a:hover {
+	text-shadow: 0 0 1rem black;
+	color: #0b0d0c;
+	letter-spacing: .1rem;
+}
+
+
+/*media queries*/
+/*format tablettes*/
+@media screen and (max-width: 768px){
+	
+.keys {
+	flex-direction: column;
+}
+
+.instruction {
+	padding: 3%;
+}
+
+
+.footer {
+	font-size: 2rem;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.footer a {
+	color: #ffc600;
+}
+
+.footer a:visited {
+	color: #CC9E00;
+}
+
+}

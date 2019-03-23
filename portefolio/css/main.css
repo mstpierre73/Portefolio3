@@ -1,0 +1,310 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+  max-width:auto;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p, a, li, button {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+.header *{
+	background-color: #0067A6;
+	color: #fff;
+	}
+
+.header h1 {
+	margin-top: 15px;
+
+}
+
+/*Supporting*/
+.supporting-index * {
+	background-color: #EFC028;
+	background: url("../img/petits-fruits.jpg") no-repeat center center;
+	background-size: cover;
+	}
+
+.supporting-index h2, 
+.supporting-index h4,
+.supporting-propos h2,
+.supporting-propos h4,
+.supporting-contact h2,
+.supporting-contact h4 {
+	color: #fff;
+	margin: 80px 0 80px 10px;
+	font-weight: bold;
+	background: transparent;
+	
+}
+.supporting-index h4,
+.supporting-propos h4,
+.supporting-contact h4 {
+	line-height: 2;
+}
+
+.supporting-propos * {
+	background-color: #EFC028;
+	background: url("../img/bateau.jpg") no-repeat center center;
+	background-size: cover;
+	}
+
+.supporting-contact * {
+	background-color: #EFC028;
+	background: url("../img/grange.jpg") no-repeat center center;
+	background-size: cover;
+	}
+
+
+/*Main*/
+.main, .col-md-4, .row, .projet {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.flex {
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+.main *{
+	background-color: #fff;
+	color: #0067A6;
+	text-align: center;
+	}
+
+.main .container {
+	border: 1px solid #0067A6;
+}
+
+.carte {
+	padding: 10px;
+}
+
+.card {
+	width: 90%;
+	margin:auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+	0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projets {
+	padding:0px 10px;
+}
+
+
+.propos, .propos-contact {
+	padding: 10px 0;
+	text-align: justify;
+}
+
+.propos a{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.titrage {
+	padding-bottom: 20px;
+}
+
+.btn {
+	margin-bottom: 20px;
+}
+
+.btn, .btn a, .btn:hover {
+	background-color: #0067A6;
+	color: #fff;
+	}
+
+.btn:active {
+	position: relative;
+	margin-bottom: 10px;
+	}
+
+/*Footer*/
+.footer *{
+	background-color: #0067A6;
+	color: #fff;
+	}
+
+.footer p {
+	padding: 15px;
+	margin-top: 15px;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+/*NAV*/
+.nav {
+	padding: 10px;
+	margin-top: 15px;
+	}
+
+.nav-pills li a:hover {
+	background-color: #fff;
+	color: #0067A6;
+}
+
+.active {
+	background-color: #fff;
+	color: #0067A6;
+}
+
+
+/*Media*/
+
+@media screen and (min-width: 991px) {
+
+
+.container {
+	width: 90%;
+}
+
+.supporting-index h4, .supporting-propos h4, .supporting-contact h4{
+margin-right: 60%;
+}
+
+}
+
+
+
+@media screen and (min-width: 771px) and (max-width: 990px) {
+
+.container {
+	width: 750px; }
+
+
+.supporting-index h4, .supporting-propos h4, .supporting-contact h4{
+margin-right: 60%;
+}
+
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 770px) {
+
+.header h1 {
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+
+#nav-top, #nav-down {
+	padding: 10px;
+}
+
+.nav-pills {
+	display: flex;
+	justify-content: center;
+}
+
+.pull-right {
+	margin: 0;
+	padding: 0;
+	float: none !important;
+}
+
+.supporting-index h4, .supporting-propos h4, .supporting-contact h4 {
+margin-right: 40%;
+margin-left: 10%;
+}
+
+.supporting-index h2, .supporting-propos h2, .supporting-contact h2 {
+margin-left: 10%;
+}
+
+#automne-img, #arbre-img {
+	height: 800px;
+}
+
+.propos-contact {
+	text-align: center;
+}
+
+#contact-button {
+	float:none !important;
+	text-align: center;
+}
+
+.footer p {
+	text-align: center;
+}
+
+#ul-down{
+	padding-top: 10px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 599px) {
+
+.header h1 {
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+
+.nav-pills {
+	display: flex;
+	justify-content: center;
+}
+
+
+.pull-right {
+	margin: 0;
+	padding: 0;
+	float: none !important;
+}
+
+#nav-top {
+	padding: 10px;
+}
+
+.supporting-index h4, .supporting-propos h4, .supporting-contact h4 {
+	margin: 20% auto;
+}
+
+.supporting-index h2, .supporting-propos h2, .supporting-contact h2 {
+	margin:  20% auto;
+}
+
+
+#background-image {
+		width: 100%;
+	}
+
+.propos-contact {
+	text-align: center;
+}
+
+#contact-button {
+	float:none !important;
+	text-align: center;
+}
+
+.footer p {
+	text-align: center;
+}
+
+}
+

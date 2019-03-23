@@ -1,0 +1,583 @@
+html, body {
+	margin: 0;
+	padding: 0;
+  background-color: #936e5b;
+}
+
+.container {
+  max-width:auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+
+h1, h2, h3, h4, p {
+	color: #fff;
+	font-family: 'lemonada', cursive; 
+}
+
+/*Header*/
+.header, #header, .header2, #header2, #accordion {
+	background-color: #936e5b;
+}
+
+.header2 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/*Supporting-index*/
+.supporting-index, .supporting-histoire, .supporting-histoire2, #accordion, .main1{
+padding-bottom: 0%;
+padding-top: 0%;
+}
+
+#photo   {
+	background-color: #936e5b;
+	background: url("../stoimg/eglise-st-augustin-de-dalmas.jpg") no-repeat center center;
+	background-size: cover;
+	}
+
+#photo2   {
+  background-color: #936e5b;
+  background: url("../stoimg/erabliere-lac-ceinture.jpg") no-repeat center center;
+  background-size: cover;
+  }
+
+#photo3   {
+  background-color: #fff;
+  background: url("../stoimg/champs.jpg") no-repeat center center;
+  background-size: cover;
+  }
+
+#photo4   {
+  background-color: #fff;
+  background: url("../stoimg/forets.jpg") no-repeat center center;
+  background-size: cover;
+  } 
+
+#photo5   {
+  background-color: #fff;
+  background: url("../stoimg/bleuets.jpg") no-repeat center center;
+  background-size: cover;
+  }
+
+#photo6   {
+  background-color: #fff;
+  background: url("../stoimg/eglise-interieur2.jpg") no-repeat center center;
+  background-size: cover;
+  }
+
+#photo7   {
+  background-color: #fff;
+  background: url("../stoimg/sable.jpg") no-repeat center center;
+  background-size: cover;
+  }
+
+#photo8   {
+  background-color: #fff;
+  background: url("../stoimg/ble.jpg") no-repeat center center;
+  background-size: cover;
+  }
+
+#photo9   {
+  background-color: #fff;
+  background: url("../stoimg/enfants.jpg") no-repeat center center;
+  background-size: cover;
+  }
+
+
+.supporting-index h2 {
+	padding: 65% 0% 6% 5%;
+}
+
+#vie h2 {
+  padding: 65%, 0% 8% 5%;
+}
+
+.supporting-histoire h2, .main1 h2 {
+  padding: 50% 0% 0% 0%;
+  color: #403027;
+}
+
+.supporting-histoire2 h2 {
+  padding: 50% 0% 0% 0%;
+  color: #fff;
+}
+
+
+.main2 h2, .main3 h2 {
+  padding: 50% 0% 0% 0%;
+  color: #fff;
+  font-size: 30px;
+}
+
+.supporting-index h3 {
+	padding: 19% 3% 19% 3%;
+	color: #936e5b;
+	line-height: 1.5;
+  text-align: center;
+  font-weight: bold;
+}
+
+.supporting-index h4 {
+  padding: 27% 3% 2% 3%;
+  color: #936e5b;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*nav*/
+
+#menu {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.sub-menu-parent { position: relative; }
+
+.sub-menu { 
+  visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+/* nav presentational */
+body { padding: 2%; font: 24px/1.4 'lemonada', cursive; }
+
+nav a { color: #936e5b; display: block; padding: 0.5em 1em; text-decoration: none;}
+nav a:hover { color: #403027; text-decoration: none;}
+nav a:visited{color: #7F2B00; text-decoration: none;}
+nav ul, nav ul li { list-style-type: none; padding: 0; margin: 0; }
+
+nav > ul { background: #fff; text-align: center; }
+nav > ul > li { display: inline-block; border-left: solid 1px #403027; }
+nav > ul > li:first-child { border-left: none; }
+
+.sub-menu {
+  background: #CC997E;
+}
+
+
+/*Main*/
+
+.main p, .supporting-index p {
+  color: #936e5b;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 27%;
+}
+
+.main h4 {
+  color: #936e5b;
+  text-align: center;
+  margin-top: 25%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main a, .main-histoire a, .add-histoire a, .supporting-index a, .main1 a {
+  color: #936e5b;
+  text-decoration: none;
+}
+
+.main a:hover, .main-histoire a:hover, .header2 a:hover, .supporting-index a:hover, .main1 a:hover{
+  text-decoration: none;
+}
+
+.main a:visited, .main-histoire a:visited, .header2 a:visited, .add-histoire a:visited, .supporting-index a:visited, .main1 a:visited{
+  color: #7F2B00;
+}
+
+/*Main-histoire*/
+.main-histoire h4,.add-histoire h4, .main1 h4{
+  color: #936e5b;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 2%;
+}
+
+.main-histoire p, .add-histoire p, .main1 p {
+  color: #936e5b;
+  font-size: 16px;
+
+}
+
+#source{
+  font-size: 12px;
+}
+
+/*main vie pastorale*/
+
+#pastorale {
+  padding-top: 5%;
+}
+
+.main3 h4 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.second {
+  padding-top: 3%;
+}
+
+/*Additionnal*/
+
+.add h4 {
+  color: #936e5b;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 2%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.add p{
+  color: #936e5b;
+  font-size: 16px;
+  margin: 2%;
+  text-align: center;
+}
+
+.add #none{
+  text-decoration: none;
+}
+
+.add #none:hover{
+  text-decoration: none;
+  color: #936e5b;
+}
+
+.add a{
+  text-decoration: underline;
+  color: #936e5b;
+  font-size: 16px;
+}
+
+.add a:hover, .add-histoire a:hover, .main3 p a:hover{
+  color: #403027;
+  text-decoration: none;
+}
+
+.add a:visited, .main3 a:visited{
+  color: #7F2B00;
+}
+
+
+/*accordion*/
+#accordion a {
+  display: block;
+  text-decoration: none;
+  background-color: #936e5b;
+}
+
+.cell {
+  width: 25%;
+  height: 400px;
+  float: left;
+  -webkit-transition: width .5s ease-in-out;
+  -moz-transition: width .5s ease-in-out;
+  -ms-transition: width .5s ease-in-out;
+  transition: width .5s ease-in-out;
+  background-color: #936e5b;
+}
+
+
+.focus {
+  height: 400px;
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  background-color: #936e5b;
+}
+
+.active .focus {
+  opacity: 1;
+}
+
+.cell:nth-child(1) {
+  background: url("../stoimg/eglise-st-augustin-de-dalmas.jpg") top center no-repeat;
+}
+
+.cell:nth-child(1) .focus {
+  background: url("../stoimg/eglise-st-Augustin-de-dalmas.jpg") top center no-repeat;
+}
+
+.cell:nth-child(2) {
+  background: url("../stoimg/eglise-interieur.jpg") top center no-repeat;
+}
+
+.cell:nth-child(2) .focus {
+  background: url("../stoimg/eglise-interieur.jpg") top center no-repeat;
+}
+
+.cell:nth-child(3) {
+  background: url("../stoimg/calvaire-st-augustin.jpg") top center no-repeat;
+}
+
+.cell:nth-child(3) .focus {
+  background: url("../stoimg/calvaire-st-augustin.jpg") top center no-repeat;
+}
+
+.cell:nth-child(4) {
+  background: url("../stoimg/calvaire-st-augustin2.jpg") top center no-repeat;
+}
+
+.cell:nth-child(4) .focus {
+  background: url("../stoimg/calvaire-st-augustin2.jpg") top center no-repeat;
+}
+.cell.active {
+  width: 50%;
+}
+.cell.inactive {
+  width: 16.666%;
+}
+
+/*menu-accordeon*/
+
+
+
+/*Footer*/
+.footer, #footer{
+  background-color: #936e5b;
+  color: #fff;
+  }
+
+.footer p {
+  margin:25px 0 ;
+  font-size: 18px;
+  
+}
+
+.footer p:hover{
+ color:#403027; 
+}
+
+.footer a:hover{
+  text-decoration: none;
+}
+
+.footer a:visited, .footer p:visited{
+  color: #7F2B00;
+  text-decoration: none;
+}
+
+
+/*Media*/
+
+/*// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) { ... }*/
+
+
+@media screen and (max-width: 1500px){
+  #source a, .main-histoire p a, .add-histoire h4 a, .supporting-index p a,.main1 p a {
+  text-decoration: underline;
+}
+
+#source a:hover, .main1 p a:hover {
+  text-decoration: none;
+}
+
+#photo2 h2, #photo3 h2, #photo4 h2, #photo5 h2 {
+  font-size: 24px;
+  padding-bottom: 2%;
+}
+
+#photo7 h2 {
+  padding: 65% 0% 0% 0%;
+}
+
+#messe {
+  height: 415px;
+}
+
+}
+
+
+
+@media screen and (max-width: 990px){
+
+.header h1, .header2 h1 {
+  text-align: center;
+}
+
+.supporting-histoire h2{
+  padding-top: 60%;
+
+}
+
+.supporting-index h3{
+  font-size: 20px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 0;
+  padding-top: 10%;
+}
+
+.supporting-index h2 {
+  font-size: 20px;
+}
+
+#photo2 h2, #photo3 h2, #photo4 h2, #photo5 h2 {
+  font-size: 20px;
+  padding-bottom: 2%;
+}
+
+#photo7 h2 {
+  font-size: 24px;
+  padding: 110% 0% 0% 0%;
+}
+
+
+#menu {
+  padding: 0;
+  margin: 0 auto;
+}
+
+nav > ul > li {
+  display: block;
+  border-left: none;
+  }
+
+nav a {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #403027; 
+  text-decoration: none;
+  }
+
+.sub-menu-parent:hover .sub-menu {
+  visibility: hidden;
+}
+
+#vie h4 {
+  margin: 5%;
+  padding: 5%;
+}
+
+#vie p {
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+#coins p {
+  font-size: 15px;
+}
+
+}
+
+
+
+@media screen and (max-width: 765px){
+
+.header h1, .header2 h1 {
+  font-size: 30px;
+  }
+
+.supporting-index h3 {
+  padding-top: 0%;
+}
+
+.supporting-index h2 {
+  text-align: center;
+}
+
+#adresse h4, #adresse p {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#photo2 h2, #photo3 h2, #photo4 h2, #photo5 h2 {
+  text-align: center;
+}
+
+#photo7 h2, #photo6 h2, #photo9 h2, #photo8 h2{
+  font-size: 20px;
+  padding: 50% 0% 0% 0%;
+  text-align: center;
+}
+
+
+.main-histoire h4, .add-histoire h4 {
+  text-align: center;
+}
+
+.main-histoire p, .add-histoire p, .main1 p {
+  text-align: justify;
+}
+
+#messe {
+  height: 315px;
+}
+
+#vie h4 {
+  margin: 1%;
+  padding: 1%;
+}
+
+#vie p {
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+}
+
+#sacrements, #pastorale {
+  text-align: center;
+}
+
+.footer p {
+  text-align: center;
+}
+
+}
+
+
+
+@media screen and (max-width: 599px){
+  .header h1, .header2 h1 {
+    font-size: 20px;
+  }
+
+
+.supporting-histoire h2{
+  padding-top: 100%;
+}
+
+.cell.active {
+  width: 60%;
+}
+
+.cell.inactive {
+  width: 10%;
+}
+
+}
