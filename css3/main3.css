@@ -341,7 +341,7 @@ main a {
 
 .project-tile li {
   background: var(--dark-blue-nav);
-  padding: 2%;
+  padding: 2% 3%;
   margin: 2%;
   color: var(--white);
   border-radius: 20px;
@@ -358,15 +358,15 @@ main a {
 }
 
 #image1 {
-  background-image: url(http://marisestpierre.com/img2/operation-charme.jpg);
+  background-image: url(../portefolio2/img2/operation-charme.jpg);
 }
 
 #image2 {
-  background-image: url(http://marisestpierre.com/img2/ferme1.jpg);
+  background-image: url(../portefolio2/img2/ferme1.jpg);
 }
 
 #image3 {
-  background-image: url(http://marisestpierre.com/img2/st-augustin.jpg);
+  background-image: url(../portefolio2/img2/st-augustin.jpg);
 }
 
 .slide {
@@ -803,6 +803,7 @@ footer p {
 
 .project-tile li {
   font-size: 0.5rem;
+  padding: 2%;
 }
 }
 
@@ -927,48 +928,48 @@ footer p {
 }
 
 #image7 {
-  background-image: url(http://marisestpierre.com/img2/portefolio1.jpg);
+  background-image: url(../portefolio2/img2/portefolio1.jpg);
 }
 
 #image8 {
-  background-image: url(http://marisestpierre.com/img2/fernand.jpg);
+  background-image: url(../portefolio2/img2/fernand.jpg);
 }
 
 #image9 {
-  background-image: url(http://marisestpierre.com/img2/portefolio2.jpg);
+  background-image: url(../portefolio2/img2/portefolio2.jpg);
 }
 
 #image10 {
-  background-image: url(http://marisestpierre.com/img2/notre-dame-de-lorette.jpg);
+  background-image: url(../portefolio2/img2/notre-dame-de-lorette.jpg);
 }
 
 #image11 {
-  background-image: url(http://marisestpierre.com/img2/citations.jpg);
+  background-image: url(../portefolio2/img2/citations.jpg);
 }
 
 #image12 {
-  background-image: url(http://www.marisestpierre.com/img2/edna-may-burnam.jpg);
+  background-image: url(../portefolio2/img2/edna-may-burnam.jpg);
 }
 
 #image13 {
-  background-image: url(http://www.marisestpierre.com/img2/sondage-arbres.jpg);
+  background-image: url(../portefolio2/img2/sondage-arbres.jpg);
   background-position: top;
 }
 
 #image14 {
-  background-image: url(http://www.marisestpierre.com/img2/recettes-boreales.jpg);
+  background-image: url(../portefolio2/img2/recettes-boreales.jpg);
 }
 
 #image15 {
-  background-image: url(http://www.marisestpierre.com/img2/pattern-header.jpg);
+  background-image: url(../portefolio2/img2/pattern-header.jpg);
 }
 
 #image16 {
-  background-image: url(http://www.marisestpierre.com/img2/museum-candy.png);
+  background-image: url(../portefolio2/img2/museum-candy.png);
 }
 
 #image17 {
-  background-image: url(https://github.com/mstpierre73/gittest/blob/master/css-grid.jpg?raw=true);
+  background-image: url(../img3/css-grid.jpg);
   background-position: top;
 }
 
