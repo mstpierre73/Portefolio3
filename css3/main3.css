@@ -1035,6 +1035,11 @@ footer p {
   background-image: url(https://images.unsplash.com/photo-1535598745644-bc7913bb1a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80);
 }
 
+#image20 {
+  background-image: url(../img3/javascript2.jpg);
+  background-position: bottom;
+}
+
 .blogTitle {
   padding-top: 3%;
   padding-bottom: 3%;
