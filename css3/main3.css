@@ -1115,6 +1115,11 @@ footer p {
 .bigImages {
   height: 275px;
 }
+
+#image20 {
+  background-image: url(../img3/javascript3.jpg);
+}
+
 }
 
 @media screen and (max-width: 375px) {
