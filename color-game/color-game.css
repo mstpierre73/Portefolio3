@@ -19,7 +19,7 @@ body {
 }
 
 #container {
-	max-width: 600px;
+	width: 60%;
 	margin: 20px auto;
 }
 
@@ -76,4 +76,38 @@ button {
 button:hover {
 	color:white;
 	background-color: steelblue;
+}
+
+footer {
+	clear: both;
+	color: white;
+	text-align: center;
+	height: 30px;
+	padding: 20px auto;
+	font-weight: bold;
+}
+
+p {
+	padding: 10px;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: steelblue;
+}
+
+/*media queries*/
+@media screen and (max-width: 400px){
+	#container {
+		width: 90%;
+}
+	#colorDisplay {
+		font-size: 150%;
+}
+
 }
