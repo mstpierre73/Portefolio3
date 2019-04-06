@@ -362,7 +362,7 @@ main a {
 }
 
 #image2 {
-  background-image: url(../portefolio2/img2/ferme1.jpg);
+  background-image: url(../portefolio2/img2/ferme2.jpg);
 }
 
 #image3 {
@@ -969,16 +969,18 @@ footer p {
 }
 
 #image17 {
-  background-image: url(../img3/css-grid.jpg);
+  background-image: url(../img3/css-grid2.jpg);
   background-position: top;
 }
 
 #image21 {
-  background-image: url(../img3/bookorama.jpg);
+  background-image: url(../img3/bookorama2.jpg);
+  background-position: top;
 }
 
 #image22 {
-  background-image: url(../img3/color-game.jpg);
+  background-image: url(../img3/color-game2.jpg);
+  background-position: top;
 }
 
 
@@ -1045,7 +1047,7 @@ footer p {
 }
 
 #image20 {
-  background-image: url(../img3/javascript2.jpg);
+  background-image: url(../img3/javascript2a.jpg);
   background-position: bottom;
 }
 
