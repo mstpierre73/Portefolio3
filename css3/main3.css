@@ -977,6 +977,10 @@ footer p {
   background-image: url(../img3/bookorama.jpg);
 }
 
+#image22 {
+  background-image: url(../img3/color-game.jpg);
+}
+
 
 @media screen and (max-width: 1100px) {
   .project-tile {
