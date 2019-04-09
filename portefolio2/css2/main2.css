@@ -70,6 +70,10 @@ h2, h3 {
 	background-size: cover;
 }
 
+.header.active {
+	background-image: url('../img2/neige.jpg');
+}
+
 .button {
 	background-color: transparent;
 	padding: 5%;
@@ -99,6 +103,10 @@ h2, h3 {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+.main.active {
+	background-image:url("../img2/foret.jpg");
 }
 
 .main h2 {
@@ -131,6 +139,10 @@ h2, h3 {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+.aside.active {
+	background-image:url("../img2/poste.jpg");
 }
 
 .aside h2 {
