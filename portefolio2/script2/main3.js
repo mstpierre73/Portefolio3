@@ -1,3 +1,7 @@
 $(document).ready(function() {
-    console.log("connected");
+    $("#change").click(function(){
+    	$(".header").toggleClass("active");
+    	$(".main").toggleClass("active");
+    	$(".aside").toggleClass("active");
+    });
 });
