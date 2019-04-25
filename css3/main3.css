@@ -988,6 +988,10 @@ footer p {
   background-position: top;
 }
 
+#image24 {
+  background-image: url(../img3/patatap.jpg);
+}
+
 
 @media screen and (max-width: 1100px) {
   .project-tile {
