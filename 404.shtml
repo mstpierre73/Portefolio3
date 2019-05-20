@@ -6,15 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 body {
-  background-color: #eee;
+  background-color: #43aee2;
 }
 
 body, h1, p {
-  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: normal;
   margin: 0;
   padding: 0;
   text-align: center;
+  color: #156084;
 }
 
 .container {
@@ -24,6 +25,7 @@ body, h1, p {
   max-width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
+  background-color: #f7f8fa;
 }
 
 .row:before, .row:after {
@@ -45,6 +47,12 @@ h1 {
   margin: 0 0 20px 0;
 }
 
+img {
+  height: 300px;
+  width: auto;
+
+}
+
 .lead {
   font-size: 21px;
   font-weight: 200;
@@ -56,7 +64,7 @@ p {
 }
 
 a {
-  color: #3282e6;
+  color: #43aee2;
   text-decoration: none;
 }
 </style>
@@ -65,19 +73,20 @@ a {
 <body>
 <div class="container text-center" id="error">
   <svg height="100" width="100">
-    <polygon points="50,25 17,80 82,80" stroke-linejoin="round" style="fill:none;stroke:#ff8a00;stroke-width:8" />
-    <text x="42" y="74" fill="#ff8a00" font-family="sans-serif" font-weight="900" font-size="42px">!</text>
+    <polygon points="50,25 17,80 82,80" stroke-linejoin="round" style="fill:none;stroke:#1a78a5;stroke-width:8" />
+    <text x="42" y="74" fill="#1a78a5" font-family="sans-serif" font-weight="900" font-size="42px">!</text>
   </svg>
  <div class="row">
     <div class="col-md-12">
       <div class="main-icon text-warning"><span class="uxicon uxicon-alert"></span></div>
-        <h1>Oups! Le site web a disparu!</h1>
-        <h1>(crotte de bique, c'est une erreur 404!)</h1>
+        <h1>Oups! Cette page n'est pas disponible! </h1>
+        <img src="https://images.unsplash.com/photo-1532356948574-9f03b5dcd0b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1272&q=80">
+        <h2>Crotte de bique, c'est une erreur 404!</h2>
     </div>
   </div>
   <div class="row">
     <div class="col-md-6 col-md-push-3">
-      <p class="lead">Si tu penses que tu aurais dû trouver ici le site web de Marise St-Pierre, web designer, fais-lui signe pour lui signaler l'erreur!</p>
+      <p class="lead">Bon ben, la meilleure chose à faire, c'est de retourner à la page d'accueil... <a href="http://marisestpierre.com/index.html">www.marisestpierre.com</a></p>
     </div>
   </div>
 </div>
