@@ -341,7 +341,7 @@ main a {
 
 .project-tile li {
   background: var(--dark-blue-nav);
-  padding: 2% 3%;
+  padding: 2% 4%;
   margin: 2%;
   color: var(--white);
   border-radius: 20px;
@@ -441,9 +441,8 @@ main .bouton:active, #blogging .bouton:active, #plug .bouton:active {
 }
 
 #image4 {
-  background-image: url(https://images.unsplash.com/photo-1502101872923-d48509bff386?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-  background-position: right;
-}
+  background-image: url(../img3/stairs.jpg);
+} /*Photo by Mikito Tateisi on Unsplash*/
 
 #image5 {
   background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
@@ -790,6 +789,7 @@ footer p {
 
 .skillset li {
   padding-left: 0;
+  font-size: 0.8rem;
 }
 
 .thumbnail {
@@ -803,7 +803,7 @@ footer p {
 
 .project-tile li {
   font-size: 0.5rem;
-  padding: 2%;
+  padding: 3%;
 }
 }
 
@@ -1090,6 +1090,10 @@ footer p {
 
 #navArticles h3 {
   line-height: 2;
+}
+
+#resolution {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 750px) {
