@@ -344,8 +344,9 @@ main a {
 
 .project-tile li {
   background: var(--dark-blue-nav);
-  padding: 2% 4% !important; 
+  padding: 10px 15px; 
   margin: 2%;
+  max-width: 150px;
   color: var(--white);
   border-radius: 15px;
   font-family: 'Roboto', sans-serif;
@@ -495,6 +496,11 @@ footer p {
     height: 350px;
     background-size: cover;
     background-position: center;
+  }
+
+  .project-tile li{
+    font-size: 0.70rem;
+    padding: 8px 12px; 
   }
 }
 
@@ -793,8 +799,13 @@ footer p {
 
 .skillset li {
   padding-left: 0;
-  font-size: 0.8rem;
-}
+ } 
+
+.project-tile li{
+    font-size: 0.60rem;
+    padding: 5px 10px;
+  }
+
 
 .thumbnail {
     height: 250px;
@@ -805,10 +816,6 @@ footer p {
   font-size: 0.75rem;
 }
 
-.project-tile li {
-  font-size: 0.5rem;
-  padding: 3%;
-}
 }
 
 @media screen and (max-width : 350px){
