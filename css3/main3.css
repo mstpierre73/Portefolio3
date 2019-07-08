@@ -1003,6 +1003,10 @@ footer p {
   background-image: url(../img3/patatap.jpg);
 }
 
+#image25 {
+  background-image: url(../img3/campifav.jpg);
+}
+
 
 @media screen and (max-width: 1100px) {
   .project-tile {
