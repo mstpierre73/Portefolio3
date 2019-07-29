@@ -1004,7 +1004,18 @@ footer p {
 }
 
 #image25 {
-  background-image: url(../img3/campifav.jpg);
+  background-image: url(../img3/campifav2.jpg);
+  background-position: top;
+}
+
+#image26 {
+  background-image: url(../img3/sasstuto.jpg);
+  background-position: top;
+}
+
+#image27 {
+  background-image: url(../img3/first-maquette.jpg);
+  background-position: top;
 }
 
 
