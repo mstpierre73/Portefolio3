@@ -467,6 +467,10 @@ main .bouton:active, #blogging .bouton:active, #plug .bouton:active {
   /*Photo by Estée Janssens on Unsplash*/
 }
 
+#image31 {
+  background-image: url(../img3/robotfriends.jpg);
+}
+
 #blog .date {
   text-align: left;
   color: var(--light-gray-text);
