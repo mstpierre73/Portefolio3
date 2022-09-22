@@ -4,4 +4,4 @@ Il s'agit de mon portefolio personnel. Vous y trouverez une courte présentation
 
 Je réalise des sites web responsives et des applications web dynamiques utilisant une architecture de type RESTful API­. Je peux aussi intégrer des maquettes réalisées dans Photoshop et créer des sites à l'aide du CRM WordPress.  
 
-Les principales technologies utilisées dans ce portefolio sont : HTML5, CSS3, Flexbox/Grid, SCSS/SASS, JavaScript(ES5/ES6), jQuery et Bootstrap(3/4), Node.js, NPM, Express, EJS, MongoDG, Mongoose, Passport.js. 
+Les principales technologies utilisées dans ce portefolio sont : HTML5, CSS3, Flexbox/Grid, SCSS/SASS, JavaScript(ES5/ES6), jQuery et Bootstrap(3/4), Node.js, NPM, Express, EJS, MongoDG, Mongoose, Passport.js, React, JSX. 
