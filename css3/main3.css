@@ -471,6 +471,10 @@ main .bouton:active, #blogging .bouton:active, #plug .bouton:active {
   background-image: url(../img3/robotfriends.jpg);
 }
 
+#image32 {
+  background-image: url(../img3/pizzamama.png);
+}
+
 #blog .date {
   text-align: left;
   color: var(--light-gray-text);
